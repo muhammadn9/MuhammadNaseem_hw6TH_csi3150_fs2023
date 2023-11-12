@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Hero from "./components/Hero/Hero";
 import TravelBlog from "./components/TravelBlog/TravelBlog";
-import placesData from "./TravelData";
+import TravelData from "./TravelData";
 
 function App() {
   return (
@@ -13,8 +13,11 @@ function App() {
         subtitle="Explore the world with us"
       />
 
-      {placesData.map((place, index) => (
-        <TravelBlog key={index} placeData={place} />
+      {TravelData.map((place) => (
+        <React.Fragment key={place.id}>
+          <TravelBlog placeData={place} />
+          {/* Add a divider or separator if needed */}
+        </React.Fragment>
       ))}
     </div>
   );
