@@ -1,11 +1,12 @@
 .hero {
   position: relative;
-  height: 400px; /* Set the height according to your design */
+  height: 400px;
   background-size: cover;
   background-position: center;
-  color: #fff; /* Text color on top of the background image */
+  /* color: #fff;  */
   display: flex;
   align-items: center;
+  background-image: url(.././././/../assets/HeroSectionImage.png);
 }
 
 .hero-content {
@@ -13,7 +14,14 @@
   width: 100%;
 }
 
-h1,
-h2 {
-  margin: 0;
+h1 {
+  margin-top: 2px;
 }
+h3 {
+  margin-top: 20px;
+  color: red;
+}
+/* 
+img {
+  background-image: url(./././../../assets/HeroSectionImage.png);
+} */
