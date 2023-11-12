@@ -1,0 +1,19 @@
+.travel-blog {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.images img {
+  width: 30%; /* Adjust the width as per your design */
+  border-radius: 8px;
+}
+
+p {
+  margin-top: 20px;
+}

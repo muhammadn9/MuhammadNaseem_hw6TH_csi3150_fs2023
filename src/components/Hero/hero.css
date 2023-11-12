@@ -1,0 +1,19 @@
+.hero {
+  position: relative;
+  height: 400px; /* Set the height according to your design */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Text color on top of the background image */
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  width: 100%;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
